@@ -1,0 +1,55 @@
+@startuml Casos de Uso
+
+left to right direction
+:Aluno de Ecomp:
+:Visitante: 
+:Servidor de Email:
+:Professor de Ecomp: 
+:Orientador:
+:Co-Orientador:
+:Banca Examinadora:
+
+
+package SiteDeAcompanhamentoDosTCCsDeEcomp{
+    (Criar Conta) 
+    (Fazer Login) 
+    (Acessar Sistema)
+    (Visualizar Cronograma)
+    (Registrar TCC)
+    (Acessar Lista de TCC's Registrados)
+    (Baixar TCC)
+    (Avaliar TCC)
+    (Solicitar Certificado)
+    (Agendar Apresentação de Defesa do TCC)
+}
+
+:Visitante: --> (Criar Conta)
+:Visitante: --> (Fazer Login)
+:Visitante: --> (Acessar Sistema)
+:Visitante: --> (Visualizar Cronograma)
+:Visitante: --> (Acessar Lista de TCC's Registrados)
+:Visitante: --> (Baixar TCC)
+
+:Professor de Ecomp: -up-> (Fazer Login)
+:Professor de Ecomp: -up-> (Agendar Apresentação de Defesa do TCC)
+:Professor de Ecomp: -up-> (Visualizar Cronograma)
+:Professor de Ecomp: -up-> (Acessar Sistema)
+:Professor de Ecomp: -up-> (Acessar Lista de TCC's Registrados)
+:Professor de Ecomp: -up-> (Baixar TCC)
+
+:Aluno de Ecomp: --> (Fazer Login)
+:Aluno de Ecomp: --> (Solicitar Certificado)
+:Aluno de Ecomp: --> (Visualizar Cronograma)
+:Aluno de Ecomp: --> (Baixar TCC)
+:Aluno de Ecomp: --> (Acessar Lista de TCC's Registrados)
+:Aluno de Ecomp: --> (Registrar TCC)
+
+:Orientador: -up-|> :Professor de Ecomp:
+:Co-Orientador: -up-|> :Professor de Ecomp:
+:Banca Examinadora: -up-|> :Professor de Ecomp:
+:Banca Examinadora: -->(Avaliar TCC)
+
+(Criar Conta) --> :Servidor de Email:
+(Solicitar Certificado) --> :Professor de Ecomp:
+
+@enduml

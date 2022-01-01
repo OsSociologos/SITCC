@@ -10,7 +10,7 @@
 - [Criar Conta](reqs_CriarConta.md)
 - [Fazer Login](reqs_FazerLogin.md)
 - [Solicitar Certificado](reqs_SolicitarCertificado.md)
-- [Solicitar Remocao do TCC](reqs_SolicitarRemocaoTCC.md)
+- [Solicitar Remoção do TCC](reqs_SolicitarRemocaoTCC.md)
 - [Visualizar Cronograma](reqs_VisualizarCronogramaTCC.md)
 - [Solicitar Registro do TCC](reqs_solicitarRegistroTCC.md)
 

@@ -1,25 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="styleHome.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SITCC</title>
 </head>
+
 <body>
-    <header>
-        <h1 id="titulo">SITCC</h1>
-        <h2 id="subtitulo">Seja Bem-Vindo ao SITCC</h2>
-    </header>
-    <main>
-        <p>O SITCC é um site de acompanhamento dos TCCs do EComp da Universidade Pública de Pernambuco. 
-        <br>
-           O sistema permite fazer entrega dos documentos do TCC, acompanhar o cronograma das disciplinas e defesas, <br> e fazer busca por outros trabalhos. Orientadores e membros das bancas podem também acompanhar e avaliar os projetos.
-        <br>
-           Para entrar no sistema, clique no botão "Acessar o sistema" abaixo:
-        </p>
-         <button class=botao onclick="window.location.href = 'login.html' ">Acessar o Sistema</button>
-         <button class=botao onclick="window.location.href = 'listatccs.html' ">Acessar Lista de TCCs Concluídos</button>
-    </main>
+
+    <section id="cabeça">
+        <div class="main">
+            <h1 class="headings1">SITCC</h1>
+        </div>
+    </section>
+
+
+
+    <section id="corpo">
+        <h1 class="headings2">Seja Bem-Vindo ao SITCC</h1>
+        <h2 class="headings3">O Portal de acompanhamento de TCC's dos alunos da Universidade de Pernambuco.<h2>
+
+                <br>
+
+                <p class="corpoDeTexto">
+                    Aqui você poderá realizar a entrega dos seus documentos do TCC, acompanhar o cronograma das
+                    disciplinas e defesas, e pesquisar por outros trabalhos. <br><br> Orientadores e membros das bancas
+                    podem também acompanhar e avaliar os projetos.
+                <p>
+
+                    
+                    <br>
+
+
+                <div id="botoes">
+                    <button class="button" onclick="window.location.href = 'login.html' ">Acessar o Sistema</button>
+                    <button class="button" onclick="window.location.href = 'listatccs.html' ">Acessar Lista de TCC's
+                        Concluídos</button>
+                </div>
+    </section>
 </body>
+
 </html>

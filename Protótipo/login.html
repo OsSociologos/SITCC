@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="styleLogin.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SITCC</title>
 </head>
+
 <body>
-    <header> 
-        <h1 id="login">Login</h1> 
-    </header>
-    
-    <main>
+
+    <section id="cabeça">
+        <div class="main">
+            <h1 class="headings1">Login</h1>
+        </div>
+    </section>
+
+    <section id="corpo">
         <label for="email">Email:</label>
-        <input type="email" id="email"><br><br>
+        <input type="email" id="camposDeInput"><br><br>
         <label for="senha">Senha:</label>
-        <input type="password" id="senha"><br><br>
-        <button class=botao>Login de Aluno</button>
-        <button class=botao>Login de Professor</button><br><br>
-        <button class=botao onclick="window.location.href = 'cadastro.html' ">Cadastrar-se</button>
-    </main>
+        <input type="password" id="camposDeInput"><br><br>
+        <div id="botoes">
+            <button class="button">Login de Aluno</button>
+            <button class="button">Login de Professor</button><br><br>
+            <button class="button" onclick="window.location.href = 'cadastro.html' ">Cadastrar-se</button>
+        </div>
+    </section>
 
 
 </body>
+
 </html>

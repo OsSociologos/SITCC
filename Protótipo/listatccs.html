@@ -1,52 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="styleLisatccs.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SITCC</title>
 </head>
+
 <body>
     <main>
-        <header>
-            <h1 id="lista">Lista de TCCs Concluídos</h1>
-        </header>
-        <label for="busca">Buscar TCC por Título</label>
-        <input type="text" id="busca"><br><br>
-        <label for="busca">Buscar TCC por Nome do Autor</label>
-        <input type="text" id="busca"><br><br>
-        <button class=botão onclick="window.location.href = 'cronograma.html' ">Cronograma</button>
+        <section id="cabeça">
+            <div class="main">
+                <h1 class="headings1">TCC's Disponíveis</h1>
+            </div>
+        </section>
+
+        <section id="corpo">
+            <label for="busca">Buscar TCC por Título</label>
+            <input type="text" id="camposDeInput"><br><br>
+            <label for="busca">Buscar TCC por Nome do Autor</label>
+            <input type="text" id="camposDeInput"><br><br>
+            <div id="botoes">
+                <button class="button" onclick="window.location.href = 'cronograma.html' ">Cronograma</button>
+            </div>
+        </section>
     </main>
-    <table border="3">
-    <tr>
-        <td>Título</td>
-        <td>Descrição</td>
-        <td>Autor</td>
-        <td>Banca</td>
-        <td>Baixar TCC</td>       
-    <tr>
-    <tr> 
-        <td>Esportes Eletrônicos</td>
-        <td>TCC sobre Esportes Eletrônicos</td>
-        <td>Vinícius Martins Cavalcanti</td>
-        <td>Orientador: Genésio Gomes</td>
-        <td><button class=botao>Download</button></td>
-    </tr>
-    <tr>
-        <td>Internet das Coisas</td>
-        <td>TCC sobre Internet das Coisas</td>
-        <td>Gabriel Azevedo Moreira Costa Pinheiro</td>
-        <td>Orientador: Genésio Gomes</td>
-        <td><button class=botao>Download</button></td>
-    </tr>
-    <tr>
-        <td>Game Design</td>
-        <td>TCC sobre Game Design</td>
-        <td>João Pedro Kern Guterres Santos</td>
-        <td>Orientador: Genésio Gomes</td>
-        <td><button class=botao>Download</button></td>
-    </tr>
-    </table>
-    
+
+    <section id="tabela">
+        <table border="3">
+            <tr>
+                <td>Título</td>
+                <td>Descrição</td>
+                <td>Autor</td>
+                <td>Banca</td>
+                <td>Baixar TCC</td>
+            <tr>
+
+            <tr>
+                <td>Esportes Eletrônicos</td>
+                <td>TCC sobre Esportes Eletrônicos</td>
+                <td>Vinícius Martins Cavalcanti</td>
+                <td>Orientador: Genésio Gomes</td>
+                <td><button class=botao>Download</button></td>
+            </tr>
+
+            <tr>
+                <td>Internet das Coisas</td>
+                <td>TCC sobre Internet das Coisas</td>
+                <td>Gabriel Azevedo Moreira Costa Pinheiro</td>
+                <td>Orientador: Genésio Gomes</td>
+                <td><button class=botao>Download</button></td>
+            </tr>
+
+            <tr>
+                <td>Game Design</td>
+                <td>TCC sobre Game Design</td>
+                <td>João Pedro Kern Guterres Santos</td>
+                <td>Orientador: Genésio Gomes</td>
+                <td><button class=botao>Download</button></td>
+            </tr>
+        </table>
+    </section>
+
 </body>
+
 </html>

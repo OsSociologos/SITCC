@@ -15,3 +15,7 @@ Aluno de Ecomp e Professor de Ecomp
 3) O usuário informa seu email cadastrado e sua senha cadastrada
 4) O usuário clica em login de aluno ou login de professor
 5) Com dados validos, o aluno ou professor acessa o sistema
+
+### Pós Condição:
+- O Aluno, com dados válidos, é levado para a página do aluno
+- O Professor, com dados válidos, é levado para a página do professor

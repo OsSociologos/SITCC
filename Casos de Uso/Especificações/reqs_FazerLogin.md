@@ -10,7 +10,8 @@ Aluno de Ecomp e Professor de Ecomp
 É necessário que o usuário não esteja logado no site
 
 ### Base Sequence:
-- O usuário acessa o site do SITCC
-- O usuário clica em acessar sistema
-- O usuário informa seu email cadastrado e sua senha cadastrada
-- O usuário clica em login de aluno ou login de professor
+1) O usuário acessa o site do SITCC
+2) O usuário clica em acessar sistema
+3) O usuário informa seu email cadastrado e sua senha cadastrada
+4) O usuário clica em login de aluno ou login de professor
+5) Com dados validos, o aluno ou professor acessa o sistema

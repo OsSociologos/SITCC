@@ -7,7 +7,7 @@ Este caso de uso permite que o aluno solicite o certificado do seu TCC.
 Aluno de Ecomp e Professor de Ecomp.
 
 ### Pré condições: 
-É necessário que o aluno faça login no site.
+É necessário que o aluno faça login no site, acesse a página do aluno, e tenha concluído e apresentado a defesa do seu TCC.
 
 ### Pós Condição:
 - Após clicar em "Solicitar Certificado", um professor receberá a notificação da solicitação e poderá aceitar ou recusar a solicitação.

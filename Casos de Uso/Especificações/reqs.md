@@ -2,7 +2,7 @@
 
 ### Especificações dos Casos de Uso
 
-- [Acessar Lista de TCCs Registrados](reqs_AcessarListaTCC.md)
+- [Acessar Lista de TCCs Concluídos](reqs_AcessarListaTCC.md)
 - [Agendar Apresentação de Defesa do TCC](reqs_AgendarApresentacao.md)
 - [Avaliar TCC](reqs_AvaliarTCC.md)
 - [Baixar TCC](reqs_BaixarTCC.md)

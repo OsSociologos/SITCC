@@ -55,7 +55,7 @@ package SiteDeAcompanhamentoDosTCCsDeEcomp{
 (Agendar Apresentacao de Defesa do TCC) --> :Aluno de Ecomp:
 (Criar Conta) --> :Servidor de E-mail:
 (Solicitar Registro do TCC) --> :Orientador:
-(Solicitar Certificado) --> :Orientador:
+(Solicitar Certificado) --> :Banca Examinadora:
 (Solicitar Remocao do TCC) --> :Orientador:
 (Avaliar TCC) --> :Aluno de Ecomp:
 

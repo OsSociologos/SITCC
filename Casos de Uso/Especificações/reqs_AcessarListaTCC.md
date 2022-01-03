@@ -10,7 +10,7 @@ Aluno de Ecomp, Professor de Ecomp e Visitante.
 É necessário que o usuário acesse a página inicial do site, a página do aluno, ou a página do professor para poder acessar a página da lista.
 
 ### Pós Condição:
-- O usuário é levado para a página da lista de TCCs já concluídos e disponíveis do site.
+O usuário é levado para a página da lista de TCCs já concluídos e disponíveis do site.
 
 ### Base Sequence:
 1) O usuário acessa o site do SITCC.

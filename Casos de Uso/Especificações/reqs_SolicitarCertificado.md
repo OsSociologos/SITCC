@@ -10,7 +10,7 @@ Aluno de Ecomp e Professor de Ecomp.
 É necessário que o aluno faça login no site.
 
 ### Pós Condição:
-- Após clicar em "Solicitar Certificado", um professor receberá a notificação da solicitação e poderá aceitar ou recusar a soliticação.
+- Após clicar em "Solicitar Certificado", um professor receberá a notificação da solicitação e poderá aceitar ou recusar a solicitação.
 
 ### Base Sequence:
 1) O Aluno acessa o site do SITCC.

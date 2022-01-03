@@ -109,3 +109,23 @@
     margin-top: -100px;
     margin-left: -200px;
 }
+
+.botao{
+
+    background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    background-color: #007dc1;
+    border-radius: 28px;
+    border: 1px solid #124d77;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #154682;
+    position: fixed;
+    top: 20%;
+    right: 72%;
+
+}

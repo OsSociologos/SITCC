@@ -15,11 +15,11 @@ Visitante, Aluno de Ecomp e Professor de Ecomp.
 ### Base Sequence:
 1) O usuário acessa o site do SITCC.
 2) O usuário clica em "Acessar Lista de TCC's Concluídos".
-3) O usuário procura o TCC de interessa na lista, e clica em "Download".
+3) O usuário procura o TCC de interesse na lista, e clica em "Download".
 
 
 ### Branch Sequence:
 1) O usuário acessa o site do SITCC
 2) O usuário clica em "Acessar o Sistema".
 3) O usuário clica em "Acessar Lista de TCC's Concluídos".
-4) O usuário procura o TCC de interessa na lista, e clica em "Download".
+4) O usuário procura o TCC de interesse na lista, e clica em "Download".

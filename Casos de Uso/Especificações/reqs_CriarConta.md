@@ -7,7 +7,7 @@ Este caso de uso permite que um aluno de ecomp ou professor de ecomp crie uma co
 Aluno de Ecomp, Professor de Ecomp e Servidor de E-mail.
 
 ### Pré condições: 
-É necessário que o usuário acesse na página de cadastro e não possua uma conta cadastrada com suas informações.
+É necessário que o usuário (aluno de ecomp ou professor de ecomp) acesse a página de cadastro e não possua uma conta cadastrada com suas informações.
 
 ### Pós Condição:
 - Com dados válidos, o aluno tem sua conta cadastrada no site.

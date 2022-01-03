@@ -5,7 +5,7 @@
 }
 
 .headings1 {
-    font-family: Copperplate;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 4rem;
     text-align: center;
     margin: 100px 100px;
@@ -14,7 +14,7 @@
 }
 
 .headings2 {
-    font-family: Copperplate;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 3rem;
     text-align: center;
     margin: 30px 0px;
@@ -23,7 +23,7 @@
 }
 
 .headings3 {
-    font-family: Copperplate;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     text-align: center;
     margin: 40px 0px;
@@ -38,7 +38,7 @@
 }
 
 .corpoDeTexto {
-    font-family: Copperplate;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     text-align: center;
     margin: 40px 0px;
@@ -87,7 +87,7 @@
     justify-content: center;
     justify-items: center;
 
-    font-family: Copperplate;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     text-align: center;
     margin: 40px 0px;
@@ -96,6 +96,7 @@
 
 #camposDeInput {
     max-width: 30%;
+    font-size: 1.8rem;
 
     position: relative;
     left:35%;
@@ -103,7 +104,7 @@
 
 #botoes{
     position: fixed;
-    top: 105%;
+    top: 75%;
     left: 50%;
     margin-top: -100px;
     margin-left: -200px;

@@ -7,10 +7,10 @@ Este caso de uso permite que um visitante, aluno de ecomp ou professor de ecomp 
 Visitante, Aluno de Ecomp e Professor de Ecomp.
 
 ### Pré condições: 
-É necessário que o usuário esteja na página da lista de TCCs concluídos e disponíveis no site.
+É necessário que o usuário esteja na página da lista de TCCs concluídos e disponíveis do site.
 
 ### Pós Condição:
-- O usuário faz o download do TCC de escolhido.
+- O usuário faz o download do TCC escolhido.
 
 ### Base Sequence:
 1) O usuário acessa o site do SITCC.

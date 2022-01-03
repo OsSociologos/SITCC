@@ -1,7 +1,7 @@
 # Caso de Uso: Acessar Lista de TCCs Concluídos
 
 ### Sumário: 
-Este caso de uso permite que o usuário consiga acessar a página da lista de TCCs já concluídos e disponíveis no site.
+Este caso de uso permite que um usuário acesse a página da lista de TCCs já concluídos e disponíveis no site.
 
 ### Ator:
 Aluno de Ecomp, Professor de Ecomp e Visitante.

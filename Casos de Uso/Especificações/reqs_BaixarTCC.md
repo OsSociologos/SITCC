@@ -10,7 +10,7 @@ Visitante, Aluno de Ecomp e Professor de Ecomp.
 É necessário que o usuário esteja na página da lista de TCCs concluídos e disponíveis do site.
 
 ### Pós Condição:
-- O usuário faz o download do TCC escolhido.
+O usuário faz o download do TCC escolhido.
 
 ### Base Sequence:
 1) O usuário acessa o site do SITCC.

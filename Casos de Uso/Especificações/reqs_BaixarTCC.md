@@ -1,7 +1,7 @@
 # Caso de Uso: Baixar TCC
 
 ### Sumário: 
-Este caso de uso permite que um visitante, aluno de ecomp ou professor de ecomp faça o download de um TCC concluído e disponível no site.
+Este caso de uso permite que um usuário faça o download de um TCC concluído e disponível no site.
 
 ### Ator:
 Visitante, Aluno de Ecomp e Professor de Ecomp.

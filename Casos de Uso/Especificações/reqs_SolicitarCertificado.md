@@ -4,13 +4,13 @@
 Este caso de uso permite que o aluno solicite o certificado do seu TCC.
 
 ### Ator:
-Aluno de Ecomp e Professor de Ecomp.
+Aluno de Ecomp e Banca Examinadora.
 
 ### Pré condições: 
 É necessário que o aluno faça login no site, acesse a página do aluno, e tenha concluído e apresentado a defesa do seu TCC.
 
 ### Pós Condição:
-Após clicar em "Solicitar Certificado", um professor receberá a notificação da solicitação e terá a opção de aceitar ou recusar essa solicitação.
+Após clicar em "Solicitar Certificado", os professores que representam a banca examinadora do TCC em questão receberão a notificação da solicitação e terão a opção de aceitar ou recusar essa solicitação.
 
 ### Base Sequence:
 1) O Aluno acessa o site do SITCC.

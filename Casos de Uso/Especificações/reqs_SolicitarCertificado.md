@@ -17,7 +17,7 @@ Após clicar em "Solicitar Certificado", um professor receberá a notificação 
 2) O Aluno clica em "Acessar o Sistema".
 3) O Aluno preenche os campos de Email e Senha.
 4) O Aluno clica em "Login de Aluno"
-5) O Aluno é levado para a Página de Aluno.
+5) O Aluno acessa a página do aluno.
 6) O Aluno, caso tenha concluído e apresentado a defesa do seu TCC, clica em "Solicitar Certificado"
 
 ### Branch Sequence:
@@ -26,5 +26,5 @@ Após clicar em "Solicitar Certificado", um professor receberá a notificação 
 3) O Aluno clica em "Acessar o Sistema".
 4) O Aluno preenche os campos de Email e Senha.
 5) O Aluno clica em "Login de Aluno"
-6) O Aluno é levado para a Página de Aluno.
+6) O Aluno acessa a página do aluno.
 7) O Aluno, caso tenha concluído e apresentado a defesa do seu TCC, clica em "Solicitar Certificado"

@@ -1,4 +1,4 @@
-# Caso de Uso: Acessar Lista de TCCs Registrados
+# Caso de Uso: Acessar Lista de TCCs Concluídos
 
 ### Sumário: 
 Este caso de uso permite que alguém acessando o site visualize a lista de TCCs já concluídos.

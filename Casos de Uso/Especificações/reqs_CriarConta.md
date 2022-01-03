@@ -10,8 +10,7 @@ Aluno de Ecomp, Professor de Ecomp e Servidor de E-mail.
 É necessário que o usuário (aluno de ecomp ou professor de ecomp) acesse a página de cadastro e não possua uma conta cadastrada com suas informações.
 
 ### Pós Condição:
-- Com dados válidos, o aluno tem sua conta cadastrada no site.
-- Com dados válidos, o professor tem sua conta cadastrada no site.
+Com dados válidos, o aluno de ecomp ou professor de ecomp tem sua conta cadastrada no site.
 
 ### Base Sequence:
 1) O usuário acessa o site do SITCC.

@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styleCronograma.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SITCC</title>
 </head>
 <body>
-    <header>
-        <h1>Cronograma</h1>
-    </header>
-    <main>
-        <div id=botoes>
+
+    <section id="cabeça">
+        <div class="main">
+            <h1 class="headings1">Cronograma</h1>
+        </div>
+    </section>
+   
+    <section id="corpo">
+        <div id="botao1">
             <button class="button" onclick="window.location.href = 'listatccs.html' ">Acessar Lista de TCC's Concluídos</button>
+        </div>
+
+        <div id="botao2">
             <button class="button" onclick="window.location.href = 'login.html' ">Acessar o Sistema</button>
         </div>
-        <img src="imagens/calendario2022.jpg" alt="calendario de 2022">
-    </main>
+        
+        <img src="imagens/calendario2022.jpg" width="540" 
+        height="440" alt="calendario de 2022">
+    </section>
 
 </body>

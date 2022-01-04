@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.headings1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    margin: 100px 100px;
+    color: rgb(250, 131, 131);
+    text-decoration: underline rgb(44, 124, 230) 3px;
+}
+
+.headings2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 30px 0px;
+    color: rgb(245, 83, 83);
+    text-decoration: underline rgb(199, 69, 69) 3px;
+}
+
+.headings3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: rgb(199, 69, 69);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    align-items: center;
+}
+
+.corpoDeTexto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    margin: 40px 0px;
+    color: rgb(36, 20, 20);
+}
+
+.button {
+    background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    background-color: #007dc1;
+    border-radius: 28px;
+    border: 1px solid #124d77;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #154682;
+}
+
+.button:hover {
+    background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    background-color: #0061a7;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+
+#cabeça {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(5, 74, 165), rgb(6, 109, 243));
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px #000 solid;
+}
+
+#corpo {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: rgb(199, 69, 69);
+}
+
+#camposDeInput {
+    max-width: 30%;
+    font-size: 1.8rem;
+
+    position: relative;
+    left:35%;
+}
+
+#botao1{
+    position: fixed;
+    top: 38.5%;
+    left: 17.3%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+#botao2{
+    position: fixed;
+    top: 38.5%;
+    left: 92%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+
+

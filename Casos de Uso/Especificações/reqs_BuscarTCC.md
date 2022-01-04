@@ -15,12 +15,12 @@ O usuário é informado sobre a quantidade de resultados encontrados pelo mecani
 ### Base Sequence:
 1) O usuário acessa o site do SITCC.
 2) O usuário clica em "Acessar Lista de TCC's Concluídos".
-3) O usuário preenche o campo de busca "Buscar TCC por Título" ou "Buscar TCC por Nome do Autor"
+3) O usuário preenche o campo de busca "Buscar TCC por Título" ou "Buscar TCC por Nome do Autor".
 4) O usuário clica em "Buscar".
 
 ### Branch Sequence:
 1) O usuário acessa o site do SITCC.
 2) O usuário clica em "Acessar o Sistema".
 3) O usuário clica em "Acessar Lista de TCC's Concluídos".
-4) O usuário preenche o campo de busca "Buscar TCC por Título" ou "Buscar TCC por Nome do Autor"
+4) O usuário preenche o campo de busca "Buscar TCC por Título" ou "Buscar TCC por Nome do Autor".
 5) O usuário clica em "Buscar".

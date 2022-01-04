@@ -22,7 +22,7 @@
 left to right direction
 :Aluno de Ecomp:
 :Visitante: 
-:Servidor de Email:
+:Servidor de E-mail:
 :Professor de Ecomp: 
 :Orientador:
 :Co-Orientador:
@@ -50,7 +50,6 @@ package SiteDeAcompanhamentoDosTCCsDeEcomp{
 
 :Professor de Ecomp: -up-> (Criar Conta)
 :Professor de Ecomp: -up-> (Fazer Login)
-:Professor de Ecomp: -up-> (Agendar Apresentacao de Defesa do TCC)
 :Professor de Ecomp: -up-> (Visualizar Cronograma)
 :Professor de Ecomp: -up-> (Acessar Lista de TCCs Registrados)
 :Professor de Ecomp: -up-> (Baixar TCC)
@@ -70,13 +69,16 @@ package SiteDeAcompanhamentoDosTCCsDeEcomp{
 :Co-Orientador: -up-|> :Banca Examinadora:
 :Banca Examinadora: -up-|> :Professor de Ecomp:
 :Banca Examinadora: --> (Avaliar TCC)
+:Orientador: --> (Agendar Apresentacao de Defesa do TCC)
 
 (Agendar Apresentacao de Defesa do TCC) --> :Aluno de Ecomp:
-(Criar Conta) --> :Servidor de Email:
+(Criar Conta) --> :Servidor de E-mail:
 (Solicitar Registro do TCC) --> :Orientador:
-(Solicitar Certificado) --> :Professor de Ecomp:
-(Solicitar Remocao do TCC) --> :Professor de Ecomp:
+(Solicitar Certificado) --> :Banca Examinadora:
+(Solicitar Remocao do TCC) --> :Orientador:
+(Avaliar TCC) --> :Aluno de Ecomp:
 
 @enduml
 ```
-![image](https://user-images.githubusercontent.com/48933397/147860433-02f27226-11b8-4ece-b75d-6568a29821c3.png)
+![image](https://user-images.githubusercontent.com/48933397/148123499-3155b8ca-ff90-47c9-b709-dc4b57666f27.png)
+

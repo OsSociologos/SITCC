@@ -7,7 +7,7 @@ Este caso de uso permite que o aluno solicite o certificado do seu TCC.
 Aluno de Ecomp e Banca Examinadora.
 
 ### Pré condições: 
-É necessário que o aluno faça login no site, acesse a página do aluno, e tenha concluído e apresentado a defesa do seu TCC.
+É necessário que o aluno faça login no site, acesse a página do aluno, e tenha concluído e apresentado a defesa do seu TCC e ter sido aprovado.
 
 ### Pós Condição:
 Após clicar em "Solicitar Certificado", os professores que representam a banca examinadora do TCC em questão receberão a notificação da solicitação e terão a opção de aceitar ou recusar essa solicitação.

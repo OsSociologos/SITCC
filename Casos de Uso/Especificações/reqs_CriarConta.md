@@ -28,3 +28,11 @@ Com dados válidos, o aluno de ecomp ou professor de ecomp tem sua conta cadastr
 5) O usuário preenche os campos necessários, com seu Nome Completo, CPF, E-mail e Senha.
 6) O usuário caso seja um aluno, clica em "Cadastrar como Aluno", e caso seja um professor, clica em "Cadastrar como Professor".
 7) O usuário confirma o seu E-mail.
+
+### Exception Sequence:
+1) O usuário acessa o site do SITCC.
+2) O usuário clica em "Acessar o Sistema".
+3) O usuário clica em "Cadastrar-se".
+4) O usuário não preenche todos os campos necessários para o cadastro.
+5) O usuário clica em "Cadastrar como Aluno" ou "Cadastrar como Professor"
+6) O usuário é notificado que precisa preencher todos os campos necessários para conseguir realizar o cadastro com sucesso.

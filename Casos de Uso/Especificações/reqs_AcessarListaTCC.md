@@ -7,7 +7,7 @@ Este caso de uso permite que um usuário acesse a página da lista de TCCs já c
 Aluno de Ecomp, Professor de Ecomp e Visitante.
 
 ### Pré condições: 
-É necessário que o usuário acesse a página inicial do site, a página do aluno, ou a página do professor para poder acessar a página da lista.
+É necessário que o usuário acesse a página inicial do site, a página de login, a página do aluno, ou a página do professor para poder acessar a página da lista.
 
 ### Pós Condição:
 O usuário é levado para a página da lista de TCCs já concluídos e disponíveis do site.

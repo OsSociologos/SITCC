@@ -4,13 +4,13 @@
 Este caso de uso permite que o Aluno solicite a remoção do seu TCC do site.
 
 ### Ator:
-Aluno de Ecomp, Orientador.
+Aluno de Ecomp e Orientador.
 
 ### Pré condições: 
 É necessário que o aluno faça login no site, e tenha tido o seu TCC préviamente registrado no site.
 
 ### Pós Condição:
-Após clicar em "Solicitar Remoção do TCC", o Orientador do aluno devera apresentar o pedido para a banca examinadora, que aprovará ou não o pedido.
+Após clicar em "Solicitar Remoção do TCC", o orientador receberá uma notificação da solicitação do aluno, podendo aceitar ou recusar essa solicitação.
 
 ### Base Sequence:
 1) O Aluno acessa o site do SITCC.
@@ -18,7 +18,7 @@ Após clicar em "Solicitar Remoção do TCC", o Orientador do aluno devera apres
 3) O Aluno preenche os campos de Email e Senha.
 4) O Aluno clica em "Login de Aluno"
 5) O Aluno acessa a página do aluno.
-6) O Aluno, caso tenha tido o seu TCC registrado no site, ele clica em "Solicitar Remoção do TCC"
+6) O Aluno, caso tenha tido o seu TCC registrado no site, clica em "Solicitar Remoção do TCC".
 
 ### Branch Sequence:
 1) O Aluno acessa o site do SITCC.
@@ -27,5 +27,4 @@ Após clicar em "Solicitar Remoção do TCC", o Orientador do aluno devera apres
 4) O Aluno preenche os campos de Email e Senha.
 5) O Aluno clica em "Login de Aluno"
 6) O Aluno acessa a página do aluno.
-7) O Aluno, caso tenha tido o seu TCC registrado no site, ele clica em "Solicitar Remoção do TCC"
-
+7) O Aluno, caso tenha tido o seu TCC registrado no site, clica em "Solicitar Remoção do TCC".

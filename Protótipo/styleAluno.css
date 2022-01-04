@@ -45,6 +45,24 @@
     color: rgb(36, 20, 20);
 }
 
+#tabela{
+
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    display: inline-block;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px 0px;
+    color: rgb(0, 0, 0);
+    margin-top: -2%;
+    margin-left: 22%;
+
+}
+
 .button {
     background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
     background-color: #007dc1;
@@ -86,12 +104,69 @@
     flex-direction: column;
     justify-content: center;
     justify-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 30px 0px;
+    color: rgb(199, 69, 69);
 }
 
-#botoes{
+h2{
+
+    display: flex;
+    margin-left: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: rgb(199, 69, 69);
+    margin-top: 10%;
+    margin-left: 22%;
+
+}
+
+.botao{
+
+    background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+    background-color: #007dc1;
+    border-radius: 28px;
+    border: 1px solid #124d77;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #154682;
     position: fixed;
-    top: 100%;
-    left: 45%;
-    margin-top: -100px;
-    margin-left: -200px;
+    top: 20%;
+    right: 72%;
+
+}
+
+table{
+    background-color: rgb(177, 177, 177);
+}
+
+.botao:hover{
+
+    background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    background-color: #0061a7;
+
+}
+
+#tabela2{
+
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px 0px;
+    color: rgb(0, 0, 0);
+    margin-top: 1%;
+
 }

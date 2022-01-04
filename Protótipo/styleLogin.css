@@ -104,7 +104,7 @@
 
 #botoes{
     position: fixed;
-    top: 75%;
+    top: 72%;
     left: 50%;
     margin-top: -100px;
     margin-left: -200px;
@@ -129,3 +129,9 @@
     right: 72%;
 
 }
+
+.botao:hover{
+    background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+    background-color: #0061a7;
+}
+

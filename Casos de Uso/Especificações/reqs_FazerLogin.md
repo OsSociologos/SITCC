@@ -27,3 +27,10 @@ Aluno de Ecomp e Professor de Ecomp.
 4) O usuário preenche os campos com seu E-mail cadastrado e sua Senha cadastrada.
 5) O usuário caso seja um aluno, clica em "Login de Aluno", e caso seja um professor, clica em "Login de Professor".
 6) Com dados validos, o aluno ou professor acessa o sistema.
+
+### Exception Sequence:
+1) O usuário acessa o site do SITCC.
+2) O usuário clica em "Acessar o Sistema".
+3) O usuário não preenche todos os campos necessários para o login.
+4) O usuário clica em "Login de Aluno" ou "Login de Professor"
+5) O usuário é notificado que precisa preencher todos os campos necessários para conseguir realizar o login com sucesso.

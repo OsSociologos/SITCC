@@ -19,5 +19,4 @@ O usuário é levado para a página da lista de TCCs já concluídos e disponív
 ### Branch Sequence:
 1) O usuário acessa o site do SITCC.
 2) O usuário clica em "Acessar o Sistema".
-3) O usuário faz login como aluno ou professor
-4) O usuário clica em "Acessar Lista de TCC's Concluídos".
+3) O usuário clica em "Acessar Lista de TCC's Concluídos".

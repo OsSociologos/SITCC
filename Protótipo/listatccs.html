@@ -19,9 +19,9 @@
 
         <section id="corpo">
             <label for="busca">Buscar TCC por Título</label>
-            <input type="text" id="camposDeInput"><button class="botao2">Buscar</button><br><br>
+            <input type="text" id="camposDeInput" class="inputTitulo"><button class="botao2" onclick="buscar('titulo')">Buscar</button><br><br>
             <label for="busca">Buscar TCC por Nome do Autor</label>
-            <input type="text" id="camposDeInput"><button class="botao2">Buscar</button><br><br>
+            <input type="text" id="camposDeInput" class="inputNome"><button class="botao2" onclick="buscar('nome')">Buscar</button><br><br>
             <div id="botoes">
                 <button class="button" onclick="window.location.href = 'cronograma.html' ">Cronograma</button>
             </div>
@@ -44,7 +44,7 @@
                 <td>&ensp;TCC sobre Esportes Eletrônicos&ensp;</td>
                 <td>Vinícius Martins Cavalcanti</td>
                 <td>&ensp;Orientador: Professor X <br> &ensp;Co-Orientador: Professor A &ensp; <br> Banca: Professor H&ensp;</td>
-                <td>&ensp;<button class=botao>Download</button>&ensp;</td>
+                <td>&ensp;<button class="botao btnDownload" onclick="funDownload()">Download</button>&ensp;</td>
             </tr>
 
             <tr>
@@ -52,7 +52,7 @@
                 <td>&ensp;TCC sobre Internet das Coisas&ensp;</td>
                 <td>&ensp;Gabriel Azevedo Moreira Costa Pinheiro&ensp;</td>
                 <td>&ensp;Orientador: Professor Y <br> &ensp;Co-Orientador: Professor B &ensp; <br> Banca: Professor I&ensp;</td>
-                <td>&ensp;<button class=botao>Download</button>&ensp;</td>
+                <td>&ensp;<button class="botao btnDownload" onclick="funDownload()">Download</button>&ensp;</td>
             </tr>
 
             <tr>
@@ -60,11 +60,12 @@
                 <td>&ensp;TCC sobre Game Design&ensp;</td>
                 <td>&ensp;João Pedro Kern Guterres Santos&ensp;</td>
                 <td>&ensp;Orientador: Professor Z <br> &ensp;Co-Orientador: Professor C &ensp;<br>Banca: Professor J&ensp;</td>
-                <td>&ensp;<button class=botao>Download</button>&ensp;</td>
+                <td>&ensp;<button class="botao btnDownload" onclick="funDownload()">Download</button>&ensp;</td>
             </tr>
         </table>
     </section>
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="alertas.js"></script>
 </body>
 
 </html>

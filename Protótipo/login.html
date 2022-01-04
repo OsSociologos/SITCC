@@ -19,19 +19,20 @@
 
     <section id="corpo">
         <label for="email">Email:</label>
-        <input type="email" id="camposDeInput"><br><br>
+        <input type="email" id="camposDeInput" class="camposInput"><br><br>
         <label for="senha">Senha:</label>
-        <input type="password" id="camposDeInput"><br><br>
+        <input type="password" id="camposDeInput" class="camposInput"><br><br>
         
         <div id="botoes">
-            <button class="button" onclick="window.location.href = 'paginaAluno.html' ">Login de Aluno</button>
-            <button class="button" onclick="window.location.href = 'paginaProfessor.html' ">Login de Professor</button><br><br>
+            <button class="button" onclick="funLogin('aluno')">Login de Aluno</button>
+            <button class="button" onclick="funLogin('professor')">Login de Professor</button><br><br>
             <button class="button" onclick="window.location.href = 'cadastro.html' ">Cadastrar-se</button>
         </div>
         <button class="botao" onclick="window.location.href = 'listatccs.html' ">Acessar Lista de TCC's Concluídos</button>
     </section>
 
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="alertas.js"></script>
 </body>
 
 </html>

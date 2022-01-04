@@ -20,21 +20,23 @@
     <main>
         <section id="corpo">
             <label for="nome">Nome Completo:</label>
-            <input type="text" id="camposDeInput"><br><br>
+            <input type="text" id="camposDeInput" class="camposInput"><br><br>
             <label for="cpf">CPF:</label>
-            <input type="text" id="camposDeInput"><br><br>
+            <input type="text" id="camposDeInput" class="camposInput"><br><br>
             <label for="email">Email:</label>
-            <input type="email" id="camposDeInput"><br><br>
+            <input type="email" id="camposDeInput" class="camposInput"><br><br>
             <label for="senha">Senha:</label>
-            <input type="password" id="camposDeInput"><br><br>
+            <input type="password" id="camposDeInput" class="camposInput"><br><br>
         </section>
 
         <section id="botoes">
-            <button class="button" onclick="window.location.href = 'login.html' ">Cadastrar como Aluno</button>
-            <button class="button" onclick="window.location.href = 'login.html' ">Cadastrar como Professor</button>
+            <button class="button" id="cadastroAluno" onclick="funCadastro('Aluno')">Cadastrar como Aluno</button>
+            <button class="button" id="cadastroProf" onclick="funCadastro('Professor')">Cadastrar como Professor</button>
             <button class="botao" onclick="window.location.href = 'login.html' ">Acessar o Sistema</button>
         </section>>
     </main>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="alertas.js"></script>
 </body>
 
 </html>

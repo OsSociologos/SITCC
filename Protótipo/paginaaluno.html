@@ -45,8 +45,8 @@
             </tr>
         </table>
         <br>
-        <button class="button">Solicitar Registro do TCC</button>
-        <button class="button">Solicitar Remoção do TCC</button>
+        <button class="button" onclick="funSolicitacao('registro')">Solicitar Registro do TCC</button>
+        <button class="button" onclick="funSolicitacao('remoção')">Solicitar Remoção do TCC</button>
     </section>
     <section id="tabela2">
         <table border="3">
@@ -56,8 +56,11 @@
             </tr>
         </table>
         <br>
-        <button class="button">Solicitar Certificado</button>
+        <button class="button" onclick="funSolicitacao('certificado')">Solicitar Certificado</button>
     </section>
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="alertas.js"></script>
 </body>
 
 </html>

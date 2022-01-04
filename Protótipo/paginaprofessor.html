@@ -33,12 +33,12 @@
                 <tr>
     
                 <tr>
-                    <td>&ensp;<button class="botao2">Agendar Defesa</button>&ensp;</td>
+                    <td>&ensp;<button class="botao2" onclick="agendarTCC()">Agendar Defesa</button>&ensp;</td>
                     <td>&ensp;Esportes Eletrônicos&ensp;</td>
                     <td>&ensp;TCC sobre Esportes Eletrônicos&ensp;</td>
                     <td>&ensp;Vinícius Martins Cavalcanti&ensp;</td>
                     <td>&ensp;Orientador&ensp;</td>
-                    <td><button class="botao2">Avaliar</button></td>
+                    <td><button class="botao2" onclick="avaliarTCC()">Avaliar</button></td>
                 </tr>
     
                 <tr>
@@ -47,16 +47,16 @@
                     <td>&ensp;TCC sobre Internet das Coisas&ensp;</td>
                     <td>&ensp;Gabriel Azevedo Moreira Costa Pinheiro&ensp;</td>
                     <td>&ensp;Co-Orientador&ensp;</td>
-                    <td><button class="botao2">Avaliar</button></td>
+                    <td><button class="botao2" onclick="avaliarTCC()">Avaliar</button></td>
                 </tr>
     
                 <tr>
-                    <td>&ensp;<button class="botao2">Agendar Defesa</button>&ensp;</td>
+                    <td>&ensp;<button class="botao2" onclick="agendarTCC()">Agendar Defesa</button>&ensp;</td>
                     <td>&ensp;Game Design&ensp;</td>
                     <td>&ensp;TCC sobre Game Design&ensp;</td>
                     <td>&ensp;João Pedro Kern Guterres Santos&ensp;</td>
                     <td>&ensp;Orientador&ensp;</td>
-                    <td><button class="botao2">Avaliar</button></td>
+                    <td><button class="botao2" onclick="avaliarTCC()">Avaliar</button></td>
                 </tr>
             </table>
             <br>
@@ -70,26 +70,28 @@
                     <td>Solicitação</td>
                     <td>Status</td>
                 <tr>
-                <tr>
+                <tr id="linha1">
                     <td>&ensp;Esportes Eletrônicos&ensp;</td>
                     <td>&ensp;Vinícius Martins Cavalcanti</td>
                     <td>&ensp;Remover TCC do Site</td>
-                    <td>&ensp;<button class="botao2">Aceitar</button>&ensp;<button class="botao2">Recusar</button>&ensp;</td>
+                    <td>&ensp;<button class="botao2" onclick="funResponderSolicitacao('aceita', 'linha1')">Aceitar</button>&ensp;<button class="botao2" onclick="funResponderSolicitacao('recusada', 'linha1')">Recusar</button>&ensp;</td>
                 </tr>
-                <tr>
+                <tr id="linha2">
                     <td>&ensp;Internet das Coisas&ensp;</td>
                     <td>&ensp;Gabriel Azevedo Moreira Costa Pinheiro&ensp;</td>
                     <td>&ensp;Gerar Certificado&ensp;</td>
-                    <td>&ensp;<button class="botao2">Aceitar</button>&ensp;<button class="botao2">Recusar</button>&ensp;</td>
+                    <td>&ensp;<button class="botao2" onclick="funResponderSolicitacao('aceita', 'linha2')">Aceitar</button>&ensp;<button class="botao2" onclick="funResponderSolicitacao('recusada', 'linha2')">Recusar</button>&ensp;</td>
                 </tr>
-                <tr>
+                <tr id="linha3">
                     <td>&ensp;Game Design&ensp;</td>
                     <td>&ensp;João Pedro Kern Guterres Santos&ensp;</td>
                     <td>&ensp;Registrar TCC no Site&ensp;</td>
-                    <td>&ensp;<button class="botao2">Aceitar</button>&ensp;<button class="botao2">Recusar</button>&ensp;</td>
+                    <td>&ensp;<button class="botao2" onclick="funResponderSolicitacao('aceita', 'linha3')">Aceitar</button>&ensp;<button class="botao2" onclick="funResponderSolicitacao('recusada', 'linha3')">Recusar</button>&ensp;</td>
                 </tr>    
             </table>
     </section>
 
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="alertas.js"></script>
 </body>
 </html>

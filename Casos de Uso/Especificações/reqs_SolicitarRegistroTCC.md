@@ -10,7 +10,7 @@ Aluno de Ecomp e Orientador.
 É necessário que o aluno faça login no site, acesse a página do aluno, tenha concluído e apresentado a defesa do seu TCC, e tenha sido aprovado.
 
 ### Pós Condição:
-Após clicar em "Solicitar Resgitro", o orientador receberá uma notificação da solicitação do aluno, podendo aceitar ou recusar essa solicitação.
+Após clicar em "Solicitar Resgitro do TCC", o orientador receberá uma notificação da solicitação do aluno, podendo aceitar ou recusar essa solicitação.
 
 ### Base Sequence:
 1) O Aluno acessa o site do SITCC.
@@ -18,7 +18,7 @@ Após clicar em "Solicitar Resgitro", o orientador receberá uma notificação d
 3) O Aluno preenche os campos de Email e Senha.
 4) O Aluno clica em "Login de Aluno"
 5) O Aluno acessa a página do aluno.
-6) O Aluno, caso tenha concluído e apresentado a defesa do seu TCC, e tenha sido aprovado, clica em "Solicitar Registro"
+6) O Aluno, caso tenha concluído e apresentado a defesa do seu TCC, e tenha sido aprovado, clica em "Solicitar Registro do TCC"
 
 ### Branch Sequence:
 1) O Aluno acessa o site do SITCC.
@@ -27,5 +27,5 @@ Após clicar em "Solicitar Resgitro", o orientador receberá uma notificação d
 4) O Aluno preenche os campos de Email e Senha.
 5) O Aluno clica em "Login de Aluno"
 6) O Aluno acessa a página do aluno.
-7) O Aluno, caso tenha concluído e apresentado a defesa do seu TCC, e tenha sido aprovado, clica em "Solicitar Registro".
+7) O Aluno, caso tenha concluído e apresentado a defesa do seu TCC, e tenha sido aprovado, clica em "Solicitar Registro do TCC".
 

@@ -19,6 +19,7 @@ O orientador realiza o agendamento da apresentação de defesa do TCC e o aluno 
 4) O Orientador clica em "Login de Professor".
 5) O Orientador acessa a página do professor.
 6) O Orientador clica em "Agendar Defesa".
+7) O Orientador digita a data para marcar a apresentação de defesa do TCC do aluno.
 
 ### Branch Sequence:
 1) O Orientador acessa o site do SITCC
@@ -28,3 +29,4 @@ O orientador realiza o agendamento da apresentação de defesa do TCC e o aluno 
 5) O Orientador clica em "Login de Professor".
 6) O Orientador acessa a página do professor.
 7) O Orientador clica em "Agendar Defesa".
+8) O Orientador digita a data para marcar a apresentação de defesa do TCC do aluno.

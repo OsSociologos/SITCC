@@ -19,6 +19,7 @@ O aluno recebe a avaliação do seu TCC dada pela banca examinadora
 4) Cada professor da Banca Examinadora clica em "Login de Professor".
 5) Cada professor da Banca Examinadora acessa a página do professor.
 6) Cada professor da Banca Examinadora clica em "Avaliar".
+7) Cada professor da Banca Examinadora digita a nota referente à sua avaliação.
 
 ### Branch Sequence:
 1) Cada professor da Banca Examinadora acessa o site do SITCC
@@ -28,3 +29,4 @@ O aluno recebe a avaliação do seu TCC dada pela banca examinadora
 5) Cada professor da Banca Examinadora clica em "Login de Professor".
 6) Cada professor da Banca Examinadora acessa a página do professor.
 7) Cada professor da Banca Examinadora clica em "Avaliar".
+8) Cada professor da Banca Examinadora digita a nota referente à sua avaliação.

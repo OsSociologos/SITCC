@@ -1,7 +1,7 @@
 # Caso de Uso: Avaliar TCC
 
 ### Sumário: 
-Este caso de uso permite que os professores que formam a banca examinadora avaliem o TCC do aluno pelos quais estão responsáveis.
+Este caso de uso permite que os professores que formam a banca examinadora avaliem o TCC do aluno pelo qual estão responsáveis.
 
 ### Ator:
 Banca Examinadora e Aluno de Ecomp

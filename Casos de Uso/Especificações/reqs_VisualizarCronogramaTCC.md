@@ -20,6 +20,6 @@ O usuário é levado para o cronograma de apresentações.
 ### Branch Sequence:
 1) O usuário acessa o site do SITCC.
 2) O usuário clica em "Acessar o Sistema".
-3) O usuário faz login como aluno ou professor
+3) O usuário, caso seja um aluno, faz o login de aluno, e caso seja um professor, faz o login de professor.
 4) O usuário clica em "Acessar Lista de TCC's Concluídos".
 5) O usuário clica em "Cronograma".
